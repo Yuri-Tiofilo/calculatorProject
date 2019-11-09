@@ -1,8 +1,15 @@
 import React from 'react';
-import {View} from 'react-native';
+import {View, Text, TextInput} from 'react-native';
 
 // import { Container } from './styles';
 
 export default function Main() {
-  return <View />;
+  return (
+    <View>
+      <Text>App Carlão</Text>
+
+      <TextInput placeholder="Digite a quantidade de tabelas"/>
+    </View>
+  );
+
 }
